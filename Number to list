@@ -1,0 +1,9 @@
+n = 123456
+n_list = []
+while n > 0:
+    r = n % 10
+    n_list.append(r)
+    print(n)
+    n = n // 10
+
+print(n_list[::-1])
